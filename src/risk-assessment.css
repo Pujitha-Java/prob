@@ -1,0 +1,48 @@
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: sans-serif;
+  margin: auto; /* Remove default body margin */
+}
+
+.risk-assessment-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Make the container take up the full height of the viewport */
+}
+
+.risk-assessment-table-wrapper {
+  width: 80%; /* Set a width for the table container */
+}
+
+.risk-assessment table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.risk-assessment th,
+.risk-assessment td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+/* Adjust color scheme based on your preference */
+.risk-level-1 {
+  background-color: #ff4d4d; /* Low risk */
+}
+
+.risk-level-2 {
+  background-color: #ff9999; /* Medium risk */
+}
+
+.risk-level-3 {
+  background-color: #ff6600; /* High risk */
+}
+
+.risk-level-4 {
+  background-color: #66ff99; /* Very high risk */
+}
+
+
